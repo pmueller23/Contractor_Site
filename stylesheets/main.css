@@ -1,0 +1,228 @@
+html{
+  font-family: sans-serif;
+  font-size: 15px;
+  color: #8e8e8e;
+}
+
+header{
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1{
+  font-family: 'Raleway', sans-serif;
+  font-size: 36px;
+  text-transform: uppercase;
+  color: #484848;
+}
+
+nav{
+  display: none;
+}
+
+figure#main-image, figure#family-image{
+  height: 540px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+figure#main-image{
+  background-image: url(../images/fam_blur_under_600_web_medium.jpg);
+}
+
+figure#family-image{
+  background-image: url(../images/us_16_9_smaller_web_30.jpg);
+}
+
+#main-image-content, #family-image-content{
+  height: 225px;
+  width: 500px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+#family-image-content{
+  height: 125px;
+}
+
+figure#main-image h2, figure#family-image h2{
+  color: #FFFFFF;
+  font-size: 55px;
+  font-weight: bold;
+  margin: 0;
+}
+
+h3{
+  color: #FFFFFF;
+  font-size: 20px;
+  font-family: sans-serif;
+  line-height: 2.25rem;
+}
+
+section{
+  display: flex;
+  flex-direction: column;
+  padding: 0 70px;
+}
+
+aside{
+  margin-top: 10px;
+}
+
+div#illustration{
+  display: none;
+}
+
+h2{
+  font-family: 'Alice', serif;
+  color: #484848;
+  font-size: 26px;
+  margin-top: 12px;
+}
+
+section > h2{
+  text-transform: uppercase;
+  text-decoration: underline;
+  margin-top: 8px;
+}
+
+p{
+  margin-top: 8px;
+  line-height: 1.3rem;
+}
+
+button.make-appointment, button.main-img-make-appointment{
+  font-family: sans-serif;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  border-radius: 2px;
+  background-color: #FF0000;
+  padding: 12px 15px;
+}
+
+button.make-appointment{
+  margin: 30px auto;
+  display: block;
+}
+
+ol{
+  margin-bottom: 20px;
+}
+
+li{
+  margin-top: 13px;
+}
+
+cite{
+  font-size: 12px;
+  display: block;
+  text-align: right;
+}
+
+cite a:hover{
+  color: blue;
+  text-decoration: underline;
+}
+
+.divider{
+ border-top: 1px solid #D0D0D0;
+ width: 260px;
+ margin: 30px auto 40px auto;
+}
+
+table{
+  margin-top: 10px;
+  font-size: 14px;
+  color: #484848;
+  text-align: left;
+}
+
+table tr:nth-child(1){
+  background-color: #C0C0C0;
+}
+
+table tr:nth-child(even){
+  background-color: #d0d0d0;
+}
+
+th{
+  display: table-cell;
+  font-weight: bold;
+  padding: 8px;
+  border: 1px solid #999;
+}
+
+td{
+  border: 1px solid #999;
+  padding: 8px;
+}
+
+figcaption p{
+  margin: 0;
+  line-height: 1rem;
+}
+
+div#book-info{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 5px;
+}
+
+div#book-item{
+  display: flex;
+  flex-flow: column;
+  text-align: center;
+}
+
+h2.call-us{
+  font-family: 'Alice', serif;
+  font-size: 26px;
+  color: #FF0000;
+}
+
+a#phone-number{
+  font-family: sans-serif;
+  font-size: 36px;
+  color: #FF0000;
+  margin: 20px;
+}
+
+a#phone-number:hover{
+  color: blue;
+}
+
+footer{
+  display: flex;
+  flex-flow: column wrap;
+  text-align: center;
+}
+
+p.footer-info{
+  font-family: 'Times',serif;
+  font-size: 16px;
+  color: #000000;
+  margin: 0px;
+}
+
+a.site-link{
+  font-family: 'Times',serif;
+  font-size: 16px;
+  color: blue;
+  padding: 5px;
+}
+
+a.site-link:hover{
+  text-decoration: underline;
+}
